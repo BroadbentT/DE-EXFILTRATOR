@@ -12,4 +12,4 @@ Python script file to crack encrypted DNS exfiltration files captured via Wiresh
 A python script file that cracks RC4 encrypted DNS exfiltration files from known variables extracted via Wireshark.
 
 ## CONSOLE DISPLAY
-![Screenshot](picture.png)
+![Screenshot](picture5.png)
