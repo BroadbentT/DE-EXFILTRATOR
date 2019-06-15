@@ -45,10 +45,10 @@ print "                                                                         
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-domainname = "totallylegit.com"
-filename = "secret.txt"
-password = "TryHarder"
-message = "0.0ejXWsr6TH-P_1xkEstaVwi7WDy8AcxufnGotWXH3ckb2Lh5A-qFljIWOAOLUS0.T1W8P4CpiCZbCM7_QKcv-r0JG29RpsyYY5YkZRxo7YDIYUJpHlGgxu5PWV1G_DA.KNrmnrktfbeDgzcpPJBjPTeMYx3Qs1Q6bAuFhROWXemJ80gPTYIz0xl8usJQN3m.w.totallylegit.com"
+domainname = ""
+filename = ""
+password = ""
+message = ""
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
