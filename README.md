@@ -1,5 +1,5 @@
 # RC4-CRACKER
-Python script file to crack a RC4 encrypted DNS exfiltration file captured via Wireshark.
+Python script file to crack encrypted DNS exfiltration files captured via Wireshark.
 
 | LANGUAGE | FILENAME | MD5 Hash |
 |------    |------    | -------  |
