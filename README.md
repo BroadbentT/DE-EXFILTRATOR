@@ -3,7 +3,7 @@ Python script file to crack RS4 encrypted DNS exfiltration file captured via Wir
 
 | LANGUAGE | FILENAME | MD5 Hash |
 |------    |------    | -------  |
-| python | rsa-cracker.py | MD5 Hash - 4578fe8747be778789f39d848fb74dd0 |
+| python | rsa-cracker.py | MD5 Hash - 6537dac7c3f7dfb2d5a15b320047396f |
 
 - [ ] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
 
