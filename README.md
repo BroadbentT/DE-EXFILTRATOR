@@ -12,4 +12,4 @@ Python script file to crack RS4 encrypted DNS exfiltration file captured via Wir
 A python script file that cracks RC4 encrypted DNS exfiltration file from known variables extracted from Wireshark.
 
 ## CONSOLE DISPLAY
-![Screenshot](picture1.png)
+![Screenshot](picture2.png)
