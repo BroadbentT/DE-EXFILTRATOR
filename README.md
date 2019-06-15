@@ -1,4 +1,4 @@
-# RS4-CRACKER
+# RC4-CRACKER
 Python script file to crack RS4 encrypted DNS exfiltration file captured via Wireshark.
 
 | LANGUAGE | FILENAME | MD5 Hash |
