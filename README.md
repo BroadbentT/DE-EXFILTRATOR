@@ -5,7 +5,8 @@ Python script file to crack encrypted DNS exfiltration files captured via Wiresh
 |------    |------    | -------  |
 | python | De-Exfiltrator.py | MD5 Hash - 6537dac7c3f7dfb2d5a15b320047396f |
 
-- [ ] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
+- [x] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
+- [ ] See [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator).
 
 <br />
 
