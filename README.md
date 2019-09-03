@@ -1,7 +1,7 @@
 # DE-EXFILTRATOR
 ## A PYTHON SCRIPT FILE TO DECRYPT ENCRYPTED DNS EXFILTRATION FILES CAPTURED VIA WIRESHARK.
 
-Usage: python De-Exfiltrator
+Usage: python De-Exfiltrator.py
 
 | LANGUAGE | FILENAME          | MD5 Hash                                    |
 |------    |------             | -------                                     |
