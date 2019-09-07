@@ -13,7 +13,7 @@ Usage: python de-exfiltrator.py
 A python script file to decrypt BASE64/RC4 encrypted DNS exfiltration files from known variables extracted via Wireshark.
 
 __VARIABLES__ </br>
-Domainname </br>
+Domain </br>
 Filename </br>
 Password </br>
 Message </br>
