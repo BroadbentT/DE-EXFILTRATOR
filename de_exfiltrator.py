@@ -41,14 +41,14 @@ print "                                                                         
 # AUTHOR  : Terence Broadbent                                                    
 # CONTRACT: GitHub                                                               
 # Version : 1.0                                                               
-# Details : Define and populate program variables.
+# Details : Populate program with known variables extracted from wireshark analysis.
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-domainname = ""
+domain   = ""
 filename = ""
 password = ""
-message = ""
+message  = ""
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
@@ -58,9 +58,12 @@ message = ""
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-print "Known Domain  : " + domainname
-print "Known Filename: " + filename
-print "Known Password: " + password
+print "Known Domain  : ",
+print colored(domain,'yellow')
+print "Known Filename: ",
+print colored(filename,'yellow')
+print "Known Password: ",
+print colored(password,'yellow')
 print "Known Message : \n"
 print colored(message,'blue')
 
@@ -72,10 +75,10 @@ print colored(message,'blue')
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-print "\nDecoding message...\n"
+print "\nDecoding message..."
 
 print "Processing - Removing known domain name...."
-message = message[0:-len(domainname)]
+message = message[0:-len(domain)]
 
 print "Processing - Making remaining string base64 complient..."
 chunkNumber, chunkData = message.split('.', 1)
@@ -109,7 +112,7 @@ os.system("rm secret.zip")
 os.system("rm secret.txt")
 
 text = str(readline)
-print colored(text,'blue')
+print colored(text,'red') + "\n"
 
 
 
