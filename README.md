@@ -12,7 +12,7 @@ Usage: python de-exfiltrator.py
 
 </br>
 [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) uses the known variables shown below as part of its exfiltration transmission, they can be extracted via Wireshark analysis and decoded.
-
+</br>
 __KNOWN VARIABLES__ </br>
 Domain </br>
 Filename </br>
