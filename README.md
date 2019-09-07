@@ -1,5 +1,5 @@
 # DE-EXFILTRATOR
-## A PYTHON SCRIPT FILE TO DECRYPT BASE64/RC4 ENCRYPTED DNS EXFILTRATION FILES CAPTURED VIA WIRESHARK.
+## A PYTHON SCRIPT FILE TO DECRYPT BASE64/RC4 ENCRYPTED DNS EXFILTRATION ZIP-FILE MESSAGES CAPTURED VIA WIRESHARK.
 
 Usage: python de-exfiltrator.py
 
@@ -18,7 +18,7 @@ Filename </br>
 Password </br>
 Message </br>
 
-Once these variables have been obtained, plug them into this python file to reveal the stolen exfiltration data.
+Once these variables have been obtained, plug them into the python file to reveal the stolen exfiltration data.
 
 ### CONSOLE DISPLAY
 ![Screenshot](picture1.png)
