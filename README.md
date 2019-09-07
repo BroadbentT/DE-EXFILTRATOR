@@ -14,10 +14,10 @@ A python script file to decrypt BASE64/RC4 encrypted DNS exfiltration files from
 
 __VARIABLES__
 
-Domainname
-Filename
-Password
-Message
+Domainname </br>
+Filename </br>
+Password </br>
+Message </br>
 
 DNSExfiltrator uses the above variables as part of its exfiltration transmission, they can be extracted via elementary Wireshark analysis.
 
