@@ -62,7 +62,7 @@ print "Known Domain  : " + domainname
 print "Known Filename: " + filename
 print "Known Password: " + password
 print "Known Message : \n"
-print colored(message,'green')
+print colored(message,'blue')
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
@@ -109,7 +109,7 @@ os.system("rm secret.zip")
 os.system("rm secret.txt")
 
 text = str(readline)
-print colored(text,'green')
+print colored(text,'blue')
 
 
 

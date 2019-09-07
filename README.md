@@ -3,9 +3,9 @@
 
 Usage: python de-exfiltrator.py
 
-| LANGUAGE | FILENAME          | MD5 Hash                                    |
-|------    |------             | -------                                     |
-| python   | de-exfiltrator.py | MD5 Hash - 6537dac7c3f7dfb2d5a15b320047396f |
+| LANGUAGE | FILENAME          | MD5 HASH                         |
+|------    |------             | -------                          |
+| python   | de_exfiltrator.py | 010cf1f53d34733b63686522709fc4a1 |
 
 - [x] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
 - [ ] See [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator).
