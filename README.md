@@ -1,5 +1,5 @@
 # DE-EXFILTRATOR
-## A PYTHON SCRIPT FILE TO DECRYPT BASE64/RC4 ENCRYPTED DNS EXFILTRATION TRAFFIC CAPTURED VIA WIRESHARK.
+## A PYTHON SCRIPT FILE TO DECRYPT BASE64/RC4 ENCRYPTED DNS EXFILTRATION FILES CAPTURED VIA WIRESHARK.
 
 Usage: python de-exfiltrator.py
 
@@ -10,13 +10,15 @@ Usage: python de-exfiltrator.py
 - [x] See [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) for further information.
 - [x] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
 
-[DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) uses the variables shown below, as part of its exfiltration transmission. They can be easily extracted via Wireshark and decoded for analysis.
+[DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) uses the variables shown below, as part of its exfiltration transmission. They can be easily detected and extracted via Wireshark analysis.
 
 __KNOWN VARIABLES__ </br>
 Domain </br>
 Filename </br>
 Password </br>
 Message </br>
+
+Once these variables have been obtained, plug them into this python file to reveal the stolen exfiltration data.
 
 ### CONSOLE DISPLAY
 ![Screenshot](picture1.png)
