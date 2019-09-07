@@ -10,9 +10,8 @@ Usage: python de-exfiltrator.py
 - [x] See [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) for further information.
 - [x] Requires 3rd party [RC4](https://pypi.org/project/arc4/) to be installed.
 
-</br>
 [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) uses the known variables shown below as part of its exfiltration transmission, they can be extracted via Wireshark analysis and decoded.
-</br>
+
 __KNOWN VARIABLES__ </br>
 Domain </br>
 Filename </br>
