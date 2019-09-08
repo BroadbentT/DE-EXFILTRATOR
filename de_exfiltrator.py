@@ -16,8 +16,8 @@
 
 import os
 import base64
-from arc4 import ARC4		# see https://pypi.org/project/arc4/
-from termcolor import colored	# pip install termcolor
+from arc4 import ARC4				# see https://pypi.org/project/arc4/
+from termcolor import colored			# pip install termcolor
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
@@ -45,16 +45,16 @@ print "                                                                         
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-domain   = ""
-filename = ""
-password = ""
-message  = ""
+domain   = "" 					# User to add data here!!
+filename = "" 					# User to add data here!!
+password = "" 					# User to add data here!!
+message  = "" 					# User to add data here!!
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
 # CONTRACT: GitHub                                                               
 # Version : 1.0                                                               
-# Details : Display the above data to the user.
+# Details : Display the above data back to the user.
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
@@ -66,23 +66,22 @@ print "Known Password: ",
 print colored(password,'yellow')
 print "Known Message : \n"
 print colored(message,'blue')
+print "\nDecoding message..."
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
 # CONTRACT: GitHub                                                               
 # Version : 1.0                                                               
-# Details : Process the data.
+# Details : Process and decode the user entered data.
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
-
-print "\nDecoding message..."
 
 print "Processing - Removing known domain name...."
 message = message[0:-len(domain)]
 
 print "Processing - Making remaining string base64 complient..."
 chunkNumber, chunkData = message.split('.', 1)
-chunkNumber = int(chunkNumber)  # We have only one chunk with index 0
+chunkNumber = int(chunkNumber)  		# We have only one chunk with index 0
 dataChunks = []
 dataChunks.append(chunkData.replace(".", ""))
 filedata = ''.join(dataChunks)
